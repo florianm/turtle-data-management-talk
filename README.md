@@ -1,22 +1,22 @@
-# Slide 1: DIKW pyramid
+# DIKW pyramid
 
-In this program's (NWSFTCP) data management framework, we aim to
+NWSFTCP's data management framework aims to
 
 - make data discoverable and accessible,
-- make the extraction of information from data reproducible and automated,
+- automate the extraction of information from data,
 - make the process of inferring knowledge into the extracted information transparent and defensible, in order to
 - deliver decision-ready insight to answer our stakeholders' management questions.
 
 Our communication plan (comms plan) governs the bigger picture of knowledge transfer and uptake.
 
-# Slide 2: Nested scope
+# Scope
 
 The NWSFBTP data management is embedded in a nested scope:
 
-- Turtle DM
-- Marine Science Program (20)
-- Science and Conservation Division (300)
-- Department of Parks and Wildlife (1600)
+- Turtle group (9)
+- Marine Science Program (~20)
+- Science and Conservation Division (~300)
+- Department of Parks and Wildlife (~1600)
 - WA State Government (120+ Departments)
 
 The NWSFBTP interacts with each level by jointly working on a number of data management challenges. Tying in with other levels brings benefits but also challenges.
@@ -29,11 +29,11 @@ The NWSFBTP interacts with each level by jointly working on a number of data man
 ## Challenges
 
 - joint timelines have longer TTP (time to production)
-- scope creep has to be avoided
+- scope creep has to be managed
 
-# Slide 3: Strategy and Vision
+# Strategy
 
-ANDS capability maturity framework
+ANDS capability maturity framework defines maturity levels of Information Management capability.
 
 - MSP is L2-3
 - Dept is L1-2

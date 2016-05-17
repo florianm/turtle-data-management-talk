@@ -168,3 +168,4 @@ blockquote .author {
 #credits p { font-style: italic; font-size: 30px; margin: 24px; padding: 0; color: #666; }
 #credits p.first { margin-bottom: 45px; font-size: 40px; }
 #credits a { font-style: italic; font-weight: bold; text-decoration: underline; }
+.vspace {padding-top: 200px;}
