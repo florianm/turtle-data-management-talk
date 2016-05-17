@@ -28,8 +28,8 @@ The NWSFBTP interacts with each level by jointly working on a number of data man
 
 ## Challenges
 
-- joint timelines have longer TTP (time to production)
-- scope creep has to be managed
+- joint timelines = longer TTP
+- scope creep
 
 # Strategy
 
@@ -38,26 +38,22 @@ ANDS capability maturity framework defines maturity levels of Information Manage
 - MSP is L2-3
 - Dept is L1-2
 - Needs: Management buy-in, recognising data as our digital currency
-- Opportunities: Invest in staff, train the trainers, 1:10 principle
+- Opportunities: Invest in staff, train the trainers, 1:20 principle
 
-# Slide 4: Demo
+# Demo
 
-- Datasets are registered in the Data catalogue (metadata on datasets).
+- Datasets are registered in the Data catalogue.
 - Spatial data (a subset of all data on the catalogue) is discoverable on the internal map viewer.
-
 - Datasets are registered with spatial extent, plus links to data
-
 - "insight-to-go" = data + analysis + product as additional trading unit of insight
-
 - Specialised data management solutions feed into / are linked from the catalogue
-
 - Data-driven reports and apps (dashboards) deliver real-time insight
 
-# Slide 5: Timeline
+# Timeline
 
 - Data catalogue: Implemented 2013, adapting to evolving data mgmt needs since then
 - DPaW Marine Science provided the template for the WA State govt catalogue data.wa.gov.au, announced July 2015, launched March 2015
-- Tagging: WAMTRAM 2 to be overhauled/replaced by integrated Biol Survey DB Biosys, RA for tagging starting July 2016
+- Tagging: WAMTRAM 2 to be overhauled/replaced by integrated Biol Survey DB Biosys
 - Stranding: Acquisition in process for StrandNet
 - Tracks: WALIS's "Managing Coastal Vulnerability" Team has produced DM approach
 - Data classification, publishing: working on getting departmental stakeholders on board with idea (ongoing since 2013)
