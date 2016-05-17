@@ -1,0 +1,170 @@
+html { overflow: hidden; }
+body { font-family: 'Open Sans', sans-serif; line-height: .8; font-size: 45px; }
+
+.background {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: -moz-radial-gradient(50% 50%, farthest-side, #fff, #efefef);
+	background: -webkit-gradient(radial, 50% 50%, 250, 50% 50%, 750, from(#fff), to(#efefef));
+	z-index: 0;
+    opacity: 1;
+}
+
+#hint {
+    z-index: 9999;
+    position: fixed; top: 0; left: 20px;
+    font-size: 16px;
+    background: #ddd;
+    color: #666;
+    padding: 6px 12px 12px;
+    font-style: italic;
+    opacity: 0;
+    border-radius: 0 0 10px 10px;
+
+    -webkit-transition: opacity 2s;
+    -moz-transition:    opacity 2s;
+    -ms-transition:     opacity 2s;
+    -o-transition:      opacity 2s;
+    transition:         opacity 2s;
+
+    -webkit-transition-delay: 6s;
+    -moz-transition-delay: 6s;
+    -ms-transition-delay: 6s;
+    -o-transition-delay: 6s;
+    transition-delay: 6s;
+}
+
+#hint a { text-decoration: underline; font-style: italic; }
+
+#hint:hover {
+    opacity: 1;
+    -webkit-transition: opacity .25s;
+    -moz-transition:    opacity .25s;
+    -ms-transition:     opacity .25s;
+    -o-transition:      opacity .25s;
+    transition:         opacity .25s;
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+    font-style: normal;
+    color: #666;
+    cursor: pointer;
+}
+a:hover { color: #333;}
+
+.title { font-size: 275px; }
+.big { text-transform: uppercase; margin: 0; padding: 0; }
+.bold { font-weight: 800; }
+.light { font-weight: 400; }
+.extralight { font-weight: 300; letter-spacing: .1em; }
+.small { display: block; padding: 20px; font-size: 20px; font-weight: 600; }
+
+blockquote {
+    text-align: justify;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+blockquote .author {
+    display: block;
+    text-align: right;
+    padding: 10px 40px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.img-wrap {	margin: 0 auto; }
+.img-inline { display: inline-block; padding: 12px 3px; }
+.img-link {	text-decoration: none; }
+.img-border { border: solid 1px #aaa; }
+
+
+/* COMMON STEP STYLES */
+
+.step {
+    text-align: center;
+    width: 1000px;
+    padding: 20px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+
+    text-shadow: rgba(0,0,0,.01) 0 0 1px; /* Chrome @font-face anti-aliasing fix */
+}
+
+.step:not(.active) { opacity: 0.1; }
+.grey555 { color: #555; }
+
+/* STEP SPECIFIC STYLES */
+#title {width: 1240px; height: 600px; text-align: left; }
+#title-text1 { font-size: 150px; }
+#title-text2 { font-size: 80px; padding: 30px; }
+#title-text3 { font-size: 180px; }
+#title-text4 { font-size: 60px; padding-top: 130px; }
+
+/* DIKW Pyramid */
+
+/* Transparent pyramid bg image */
+#dikw::after {
+	background-image: url("../img/pyramid.jpg");
+	background-position: center center;
+	content: "";
+	opacity: 0.3;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+
+}
+.dikw-small {
+	font-size: 40px;
+	color: #333;
+	display: block;
+	padding-top: 40px;
+}
+.dikw-large  { font-size: 100px; }
+
+#maturity-credits{ font-size: 40px; }
+
+/* Nested Scope */
+#scope-turtles {}
+#scope-turtles-issues {}
+#scope-msp {}
+#scope-msp-issues {}
+#scope-scd {}
+#scope-scd-issues {}
+#scope-dpaw {}
+#scope-dpaw-issues {}
+#scope-wa {}
+#scope-wa-issues {}
+
+/* Timeline */
+.tl-big {
+	font-size: 120px;
+	font-weight: 800;
+	color: #555;
+}
+.tl-small {
+	font-size: 40px;
+	padding-top: 40px;
+}
+
+#credits { width: 1200px; padding: 0; }
+#credits .big { font-size: 150px; }
+#credits p { font-style: italic; font-size: 30px; margin: 24px; padding: 0; color: #666; }
+#credits p.first { margin-bottom: 45px; font-size: 40px; }
+#credits a { font-style: italic; font-weight: bold; text-decoration: underline; }
