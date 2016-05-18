@@ -152,6 +152,14 @@ blockquote .author {
 #scope-wa {}
 #scope-wa-issues {}
 
+/* Demo */
+.demo-small {
+	font-size: 40px;
+	color: #333;
+	display: block;
+	padding-top: 10px;
+}
+
 /* Timeline */
 .tl-big {
 	font-size: 120px;
