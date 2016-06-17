@@ -1,133 +1,175 @@
+
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Turtle-data-management-talk by florianm</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Turtle Data Management</title>
 
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/florianm/turtle-data-management-talk">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/florianm/turtle-data-management-talk/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/florianm/turtle-data-management-talk/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
+    <meta name="description" content="North West Shelf Flatback Turtle Conservation Program Data Management">
+    <meta name="author" content="Florian Mayer, Dept Parks and Wilflife WA" />
 
-    <div class="wrapper">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,700italic,300,400,800' rel='stylesheet' type='text/css'>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
 
-      <section>
-        <div id="title">
-          <h1>Turtle-data-management-talk</h1>
-          <p>An impress.js presentation on the North-West-Shelf Flatback Turtle Conservation Program&#39;s data management</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/florianm">florianm</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+	<div class="background"></div>
+
+	<div id="hint">an <a href="http://bartaz.github.com/impress.js/">impress.js</a>
+        presentation by <a href="https://www.linkedin.com/in/florian-mayer-9633085b">Florian Mayer</a>
+		- use the spacebar or arrow keys to navigate</div>
+
+	<div id="impress" class="impress-not-supported">
+
+		<div id="title" class="step" data-x="540" data-y="0" data-scale="3">
+			<div class="big bold">
+				<div id="title-text1">Pyramids</div>
+				<div id="title-text2">and</div>
+				<div id="title-text3">pipelines</div>
+                <div id="title-text4" class="light grey555">NWSFTCP Data Management</div>
+			</div>
+		</div>
+
+		<div id="dikw" class="step" data-x="5000" data-y="-200" data-scale="1">
+			<div class="big bold">
+                <div id="dikw-u1" class="dikw-small">Communication plan</div>
+                <div id="dikw-u2" class="dikw-large">Uptake</div>
+                <div id="dikw-w1" class="dikw-small">decision-ready insight</div>
+                <div id="dikw-w2" class="dikw-large">Wisdom</div>
+                <div id="dikw-k1" class="dikw-small">transparent & defensible</div>
+                <div id="dikw-k2" class="dikw-large">Knowledge</div>
+                <div id="dikw-i1" class="dikw-small">reproducible & automated</div>
+                <div id="dikw-i2" class="dikw-large">Information</div>
+                <div id="dikw-d1" class="dikw-small">Discoverable & Accessible</div>
+				<div id="dikw-d2" class="dikw-large">Data</div>
+                <div id="dikw-o1" class="dikw-small">Measurement and</div>
+                <div id="dikw-o2" class="dikw-large">Observation</div>
+			</div>
+		</div>
+
+
+        <div id="scope-turtles" class="step" data-x="5000" data-y="700" data-scale="1.2">
+			<div id="scope-turtles-title" class="dikw-large big bold">NWSFTCP</div>
+            <div id="scope-turtles-issues" class="dikw-small">Data capture</div>
+            <div id="scope-turtles-issues" class="dikw-small">Data QA & lineage</div>
+		</div>
+
+        <div id="scope-msp" class="step" data-x="5000" data-y="1400" data-scale="2">
+			<div id="scope-msp-title" class="dikw-large big bold">Marine Science</div>
+            <div id="scope-msp-issues1" class="dikw-small">Data cataloging</div>
+            <div id="scope-msp-issues2" class="dikw-small">Report automation</div>
+		</div>
+
+        <div id="scope-scd" class="step" data-x="5000" data-y="3000" data-scale="5">
+            <div id="scope-scd-title" class="dikw-large big bold">Science & Conservation Division</div>
+            <div id="scope-scd-issues1" class="dikw-small">Biological Survey DB "Biosys"</div>
+            <div id="scope-scd-issues2" class="dikw-small">Information Management Strategic Plan</div>
         </div>
 
-        <p>Printout notice: this talk is online at <a href="https://github.com/florianm/turtle-data-management-talk">https://github.com/florianm/turtle-data-management-talk</a></p>
 
-<h1>
-<a id="dikw-pyramid" class="anchor" href="#dikw-pyramid" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>DIKW pyramid</h1>
+        <div id="scope-dpaw" class="step" data-x="5000" data-y="6000" data-scale="8">
+            <div id="scope-dpaw-title" class="dikw-large big bold">Department Parks & Wildlife</div>
+            <div id="scope-dpaw-issues1" class="dikw-small">Data classification</div>
+            <div id="scope-dpaw-issues2" class="dikw-small">Data publishing</div>
+        </div>
 
-<p>NWSFTCP's data management framework aims to</p>
+        <div id="scope-wa" class="step" data-x="5000" data-y="11000" data-scale="13">
+            <div id="scope-wa-title" class="dikw-large big bold">WA State Government</div>
+            <div id="scope-wa-issues1" class="dikw-small">Data classification</div>
+            <div id="scope-wa-issues2" class="dikw-small">Data licensing</div>
+            <div id="scope-wa-issues3" class="dikw-small">Data cataloging</div>
+            <div id="scope-wa-issues3" class="dikw-small">Data sharing</div>
+        </div>
 
-<ul>
-<li>make data discoverable and accessible,</li>
-<li>automate the extraction of information from data,</li>
-<li>make the process of inferring knowledge into the extracted information transparent and defensible, in order to</li>
-<li>deliver decision-ready insight to answer our stakeholders' management questions, and to</li>
-<li>disseminate insight as per our communications plan.</li>
-</ul>
+        <div id="maturity" class="step" data-x="13000" data-y="3000" data-z="-1000"
+            data-rotate="-90" data-rotate-y="90" data-scale="10">
+            <img src="img/maturity.jpg" width="800" />
+            <div id="maturity-credits">
+                Source: <a href="http://www.ands.org.au/guides/capability-maturity">ANDS</a>
+            </div>
+        </div>
 
-<h1>
-<a id="scope" class="anchor" href="#scope" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scope</h1>
+        <div id="demo" class="step" data-x="500" data-y="3000" data-scale="1">
+            <img src="img/demo.svg" width="800" />
+            <div class="demo-small"><a href="https://sdis.dpaw.wa.gov.au/" target="_">Project management</a></div>
+            <div class="demo-small"><a href="https://waffle.io/florianm/turtle-planning" target="_">Task management</a></div>
+            <div class="demo-small"><a href="https://confluence.dpaw.wa.gov.au/display/MSIM/CKAN+Data+Catalogue+Usage" target="_">Knowledge management</a></div>
+            <div class="demo-small"><a href="http://internal-data.dpaw.wa.gov.au/" target="_">Data catalogue</a></div>
+            <div class="demo-small"><a href="http://internal-map.dpaw.wa.gov.au/" target="_">Data map</a></div>
+            <div class="demo-small"><a href="http://rstudio.dpaw.wa.gov.au/" target="_">Reproducible reporting</a></div>
+            <div class="demo-small">
+                <a href="http://rshiny.dpaw.wa.gov.au/timeseries" target="_">Real-time insight Ex 1</a>
+                <a href="http://biodiversity-audit.dpaw.wa.gov.au/" target="_">Ex 2</a>
+            </div>
+            <div class="demo-small"><a href="http://dpaw.maps.arcgis.com/apps/webappviewer/index.html?id=3676bf05ab21499ab44abadcb87c10b9" target="_">Aerial Surveys</a></div>
+        </div>
 
-<p>The NWSFBTP data management is embedded in a nested scope:</p>
 
-<ul>
-<li>Turtle group (9 staff)</li>
-<li>Marine Science Program (~20 staff)</li>
-<li>Science and Conservation Division (~300 staff)</li>
-<li>Department of Parks and Wildlife (~1600 staff, about 400 data producers)</li>
-<li>WA State Government (120+ Departments)</li>
-</ul>
+        <div id="tl-dc" class="step" data-x="1800" data-y="3000" data-scale="1">
+			<div class="tl-big">Data catalogue</div>
+            <div class="tl-small">Operational since 12/2013, data.wa.gov.au</div>
+        </div>
 
-<p>The NWSFBTP interacts with each level by jointly working on a number of data management challenges. Tying in with other levels brings benefits but also challenges: Takes longer, but makes more sense.</p>
+        <div id="tl-tagging" class="step" data-x="1800" data-y="3300" data-scale="1">
+			<div class="tl-big">Tagging</div>
+            <div class="tl-small">WAMTRAM 2 > Biol Survey DB Biosys</div>
+        </div>
 
-<h2>
-<a id="benefits" class="anchor" href="#benefits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Benefits</h2>
+        <div id="tl-strandig" class="step" data-x="1800" data-y="3600" data-scale="1">
+			<div class="tl-big">Stranding</div>
+            <div class="tl-small">Acquisition in process for StrandNet</div>
+            <div class="tl-small">Overlap with NMMDB</div>
+        </div>
 
-<ul>
-<li>alignment with organisational scope, strategy, vision</li>
-<li>joint resources - more knowledge and resources, bigger picture, better understanding</li>
-</ul>
+        <div id="tl-tracks" class="step" data-x="1800" data-y="3900" data-scale="1">
+			<div class="tl-big">Tracks</div>
+            <div class="tl-small">WALIS's "Managing Coastal Vulnerability" solution</div>
+            <div class="tl-small">Jai Denda, Chris Barber, Ralph Talbot-Smith</div>
+        </div>
 
-<h2>
-<a id="challenges" class="anchor" href="#challenges" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Challenges</h2>
+        <div id="tl-publishing" class="step" data-x="1800" data-y="4200" data-scale="1">
+			<div class="tl-big">Data publishing</div>
+            <div class="tl-small">Required: Data classification, licensing</div>
+        </div>
 
-<ul>
-<li>joint timelines = longer TTP</li>
-<li>scope creep</li>
-</ul>
+        <div id="tl-collection" class="step" data-x="1800" data-y="4500" data-scale="1">
+			<div class="tl-big">Data collection</div>
+            <div class="tl-small">Trials: Cybertracker, ArcGIS collector, Open Data Kit</div>
+            <div class="tl-small">Planned: offline data capture app</div>
+        </div>
 
-<h1>
-<a id="strategy" class="anchor" href="#strategy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Strategy</h1>
+        <div id="tl-insight" class="step" data-x="1800" data-y="4800" data-scale="1">
+            <div class="tl-big">Insight</div>
+            <div class="tl-small">On demand: reporting, dashboards</div>
+            <div class="tl-small">Reporting template
+                <a href="https://github.com/datawagovau/ckan-o-sweave"
+                   target="_">CKAN o' Sweave</a> open sourced</div>
+        </div>
 
-<p>ANDS capability maturity framework defines maturity levels of Research Data Management.</p>
+		<div class="step" id="credits" data-x="1800" data-y="5000"
+            data-rotate="-90" data-rotate-y="90" data-scale=".1">
 
-<ul>
-<li>Turtle Program and Marine Science are L2-3</li>
-<li>Division and Department are L1-2, but are taking up lessons learned from Marine Science</li>
-<li>Needs: Management buy-in, recognising data as our digital currency</li>
-<li>Opportunities: Invest in staff, train the trainers, 1:20 principle</li>
-</ul>
+            <div class="big bold">(1:20)<sup>2</sup></div>
+            <p></p>
 
-<h1>
-<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demo</h1>
 
-<ul>
-<li>Projects are documented, approved, reported on in <a href="https://sdis.dpaw.wa.gov.au/">SDIS</a>
-</li>
-<li>Turtle Data Management tasks are tracked as <a href="https://github.com/florianm/turtle-planning">GitHub issues</a> with a <a href="https://waffle.io/florianm/turtle-planning">Kanban board</a>
-</li>
-<li>Datasets are registered in the <a href="http://internal-data.dpaw.wa.gov.au/">Data catalogue</a> - DPaW Intranet only.</li>
-<li>Spatial data (a subset of all data on the catalogue) is discoverable on the <a href="https://internal-map.dpaw.wa.gov.au/">internal map viewer</a>.</li>
-<li>Datasets are registered with spatial extent, plus links to data</li>
-<li>"insight-to-go" = data + analysis + product as additional trading unit of insight</li>
-<li>Specialised data management solutions feed into / are linked from the catalogue</li>
-<li>Data-driven reports and apps (dashboards) deliver real-time insight</li>
-</ul>
+			<div class="vspace"></div>
+            <p>This presentation is released under MIT license
+                <a href="https://github.com/florianm/turtle-data-management-talk"
+                   taget="_">on GitHub</a></p>
+			<p>Cheops Pyramid by <a href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza#/media/File:Kheops-Pyramid.jpg">Nina Aldin Thune</a></p>
+			<!-- <p>Responsive Web Design Book published by <a href="www.abookapart.com">A Book Apart</a></p>
+			<p>Jeremy Keith quote from <a href="http://5by5.tv/webahead">The Web Ahead Podcast</a></p>
+			<p>Jeff Veen quote from a review of <a href="http://www.abookapart.com/products/responsive-web-design">&rsquo;Responsive Web Design&lsquo;</a></p> -->
+			<p><a href="http://www.google.com/webfonts/specimen/Open+Sans">Open Sans Font</a> by <a href="https://profiles.google.com/107777320916704234605/about">Steve Matteson</a></p>
+			<p><a href="http://bartaz.github.com/impress.js/">impress.js</a> created by <a href="http://bartaz.github.com/">Bartek Szopka</a></p>
+		</div>
 
-<h1>
-<a id="timeline" class="anchor" href="#timeline" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Timeline</h1>
+	</div>
 
-<ul>
-<li>Data catalogue: Implemented 2013, adapting to evolving data mgmt needs since then</li>
-<li>DPaW Marine Science provided the template for the WA State govt catalogue data.wa.gov.au, announced July 2015, launched March 2015</li>
-<li>Data classification, publishing: working on getting departmental stakeholders on board with idea (ongoing since 2013)</li>
-<li>Data collection: collaboration with DPaW GIS Applications developers, evaluating various solutions</li>
-<li>Tagging: WAMTRAM 2 to be overhauled/replaced by integrated Biol Survey DB Biosys</li>
-<li>Stranding: Acquisition in process for StrandNet</li>
-<li>Tracks: WALIS's "Managing Coastal Vulnerability" Team has produced an <a href="http://dpaw.maps.arcgis.com/apps/webappviewer/index.html?id=3676bf05ab21499ab44abadcb87c10b9">Aerial Survey DM solution</a> - restricted access</li>
-</ul>
-      </section>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="js/impress.js"></script>
 
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
+</body>
 </html>
