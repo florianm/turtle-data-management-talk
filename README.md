@@ -1,4 +1,6 @@
 Printout notice: this talk is online at <https://github.com/florianm/turtle-data-management-talk>
+To view the slides, open presentation.html in a browser.
+
 
 # DIKW pyramid
 
