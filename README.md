@@ -1,4 +1,6 @@
-Printout notice: this talk is online at <https://github.com/florianm/turtle-data-management-talk>
+[Code](https://github.com/florianm/turtle-data-management-talk)
+[Slides](http://florianm.github.io/turtle-data-management-talk/)
+Notes:
 
 # DIKW pyramid
 
